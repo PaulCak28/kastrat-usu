@@ -1,12 +1,12 @@
-# Project Kastrat - Kloning Website Departemen Kajian & Aksi Strategis BEM FEB UI
+# Website Departemen Kajian & Aksi Strategis (Kastrat) - PEMA USU
 
-Proyek ini adalah kloning website **Departemen Kajian & Aksi Strategis (Kastrat) - BEM FEB UI** (referensi: [bemfebui.com/departemen-kajian-aksi-strategis/](https://bemfebui.com/departemen-kajian-aksi-strategis/)) yang dibuat semirip mungkin dengan aslinya untuk digunakan sebagai dasar/fondasi pengembangan website organisasi Anda.
+Website resmi **Departemen Kajian & Aksi Strategis (Kastrat) - Pemerintahan Mahasiswa Universitas Sumatera Utara (PEMA USU)** periode 2026. Website ini dirancang dengan gaya visual modern, elegan, dan berbobot akademis untuk menampilkan program kerja advokasi, riset kebijakan publik, susunan pengurus, dan kanal aspirasi mahasiswa di Kampus Padang Bulan, Medan.
 
 ---
 
 ## 🚀 Cara Menjalankan
 
-Website ini dibangun menggunakan **HTML5, CSS3, dan Vanilla JavaScript murni**, tanpa dependensi berat (framework), dan semua aset gambar telah diunduh secara lokal.
+Website ini dibangun menggunakan **HTML5 semantik, CSS3 modern, dan Vanilla JavaScript murni**, tanpa dependensi framework berat, dengan aset gambar dan logo yang sudah tersimpan secara lokal.
 
 ### Opsi 1: Langsung Buka di Browser
 
@@ -29,27 +29,27 @@ Lalu buka di browser: `http://localhost:8000`
 ```
 Project Kastrat/
 │
-├── index.html                  # Halaman utama (Hero, 14 Program Kerja, Tim Pengurus, Footer)
-├── extracted_data.json         # Data JSON hasil ekstraksi dari website asli (program kerja & pengurus)
-├── page.html                   # Sumber HTML asli sebagai bahan referensi perbandingan
+├── index.html                  # Halaman utama (Hero USU, 14 Program Kerja, Tim Pengurus, Footer)
+├── extracted_data.json         # Data JSON program kerja & pengurus Kastrat USU
 ├── README.md                   # Dokumentasi proyek
 │
 └── assets/
     ├── css/
-    │   └── style.css           # Styling lengkap, warna resmi, tipografi, efek 3D flip card & responsivitas
+    │   └── style.css           # Styling lengkap: warna USU, tipografi, efek 3D flip card & responsivitas
     ├── js/
-    │   └── main.js             # Skrip interaktif (slider pengurus, kartu flip, mobile menu, scroll navbar)
+    │   └── main.js             # Skrip interaktif (carousel pengurus, kartu 3D flip, mobile drawer, scroll navbar)
     └── images/
-        ├── logo.png            # Logo resmi BEM FEB UI
-        ├── hero-feb-ui.jpg     # Background hero section Gedung FEB UI
-        ├── asla.jpg            # Foto Kepala Departemen (M. Nur Asla Junior)
-        ├── raudlah.jpg         # Foto Wakil Kepala Departemen (Raudlah Salsabila)
-        ├── kamila.jpg          # Foto Staff Departemen (Hikmah Kamila A.)
-        ├── abraham.jpg         # Foto Staff Departemen (Abraham Samuel W.)
-        ├── ilayka.jpg          # Foto Staff Departemen (Ilayka Asykuu A.)
-        ├── syafiq.jpg          # Foto Staff Departemen (M. Syafiq Zhairul H.)
-        ├── wirda.jpg           # Foto Staff Departemen (Wirda Hafidz)
-        ├── sheva.jpg           # Foto Staff Departemen (Sheva Fi Sabilillah)
+        ├── logo.svg            # Logo vektor resmi Kastrat PEMA USU
+        ├── logo.png            # Logo format PNG resolusi tinggi
+        ├── hero-usu.jpg        # Background hero section Kampus Universitas Sumatera Utara
+        ├── asla.jpg            # Foto M. Farhan Lubis (Kepala Departemen)
+        ├── raudlah.jpg         # Foto Annisa Putri Siregar (Wakil Kepala Departemen)
+        ├── kamila.jpg          # Foto Dina Mariana Simanjuntak (Biro Riset & Kajian Kebijakan)
+        ├── abraham.jpg         # Foto Rizky Pratama Harahap (Biro Aksi & Propaganda Massa)
+        ├── ilayka.jpg          # Foto Grace Christine Sitompul (Divisi Advokasi Mahasiswa)
+        ├── syafiq.jpg          # Foto Bagus Satria Tanjung (Divisi Media & Publikasi)
+        ├── wirda.jpg           # Foto Fatimah Zahra Nasution (Divisi Hubungan Antar Lembaga)
+        ├── sheva.jpg           # Foto Rahmat Hidayat Daulay (Staf Ahli Data & Isu Publik)
         └── program-1.jpg s/d program-14.jpg  # Background kartu masing-masing dari 14 Program Kerja
 ```
 
@@ -58,39 +58,42 @@ Project Kastrat/
 ## 🎨 Fitur & Detail Desain
 
 1. **Header & Navigasi**:
+   - Logo baru Kastrat PEMA USU berformat vektor tajam.
    - Header sticky dengan efek blur backdrop (`backdrop-filter`) saat di-scroll.
-   - Menu dropdown untuk _Student Info_ dan _Articles_.
-   - Tombol CTA _"Visit Store"_ bernuansa kuning emas khas BEM FEB UI.
-   - Tombol hamburger & drawer navigasi responsif untuk perangkat mobile / tablet.
+   - Menu dropdown untuk _Info Mahasiswa_ (Portal Satu USU, Beasiswa, Advokasi UKT) dan _Kajian & Publikasi_ (Kajian Strategis, Sumut Digest, Kastrat Times).
+   - Tombol CTA _"Kanal Aspirasi"_.
+   - Tombol hamburger & drawer navigasi responsif untuk mobile/tablet.
 
 2. **Hero Banner**:
-   - Background gambar gedung FEB UI dengan dark radial gradient overlay.
-   - Tipografi elegan menggunakan serif font `Ibarra Real Nova` & sans-serif `Poppins`.
-   - Tagline dan deskripsi peran departemen Kajian & Aksi Strategis.
+   - Background lanskap kampus universitas yang asri dengan radial gradient overlay.
+   - Badge kebanggaan _"PEMA UNIVERSITAS SUMATERA UTARA 2026"_.
+   - Tipografi elegan `Ibarra Real Nova` & `Poppins`.
+   - Tagline pergerakan intelektual mahasiswa USU.
 
 3. **14 Kartu Program Kerja Interaktif (3D Flip Box)**:
-   - Efek 3D flip yang mulus saat kursor diarahkan (hover) pada desktop maupun saat diketuk (tap) pada mobile.
-   - Sisi depan menampilkan gambar latar khusus program kerja terkait dengan judul elegan.
-   - Sisi belakang menampilkan deskripsi lengkap program kerja dan tombol aksi (tonton, baca kajian, selengkapnya).
+   - Efek 3D flip yang mulus saat kursor diarahkan (hover) pada desktop maupun sentuhan (tap) pada mobile.
+   - Sisi depan menampilkan judul program dan gambar latar tematik.
+   - Sisi belakang memuat deskripsi lengkap dalam Bahasa Indonesia (tanpa placeholder latin) dan tombol aksi.
 
-4. **Susunan Pengurus / Kastrat Team (Slider/Carousel)**:
-   - Menampilkan profil 8 pimpinan dan staf departemen.
-   - Dilengkapi navigasi slide (Next & Prev) serta dukungan drag / swipe sentuhan.
+4. **Susunan Pengurus / Tim Kastrat (Slider/Carousel)**:
+   - Menampilkan profil 8 pimpinan dan staf departemen dengan nama mahasiswa USU dan bidang tugas.
+   - Dilengkapi navigasi slide (Next & Prev) serta dukungan drag/swipe sentuhan.
 
 5. **Footer Lengkap**:
-   - Informasi organisasi BEM FEB UI & tautan sosial media (X/Twitter, YouTube, LinkedIn, Instagram, TikTok).
-   - Kontak narahubung resmi untuk Partnership, Organisasi/NGO, dan Humas.
-   - Tombol mengambang _"Back to Top"_ untuk kembali ke bagian paling atas halaman.
+   - Informasi organisasi PEMA USU & tautan sosial media.
+   - Sekretariat Gelanggang Mahasiswa USU, Padang Bulan, Medan.
+   - Hotline narahubung resmi untuk Advokasi Mahasiswa dan Kemitraan/Pers.
+   - Tombol floating _"Back to Top"_.
 
 ---
 
-## 🛠️ Palet Warna Resmi
+## 🛠️ Palet Warna
 
-| Variabel            | Kode Warna | Penggunaan                      |
-| ------------------- | ---------- | ------------------------------- |
-| `--color-dark-bg`   | `#161512`  | Background utama gelap          |
-| `--color-dark-card` | `#1B1F10`  | Latar belakang kartu / panel    |
-| `--color-primary`   | `#F5F1CA`  | Judul utama & aksen krem elegan |
-| `--color-yellow`    | `#F2EB87`  | Tombol CTA, aksen kuning cerah  |
-| `--color-accent`    | `#91A76A`  | Hijau sage / aksen sekunder     |
-| `--color-text`      | `#D8D6C6`  | Teks isi & deskripsi            |
+| Variabel            | Kode Warna | Nuansa / Penggunaan                       |
+| ------------------- | ---------- | ----------------------------------------- |
+| `--color-dark-bg`   | `#161512`  | Latar belakang utama gelap                |
+| `--color-dark-card` | `#1B1F10`  | Latar belakang kartu bernuansa deep olive |
+| `--color-primary`   | `#F5F1CA`  | Judul utama & aksen krem elegan           |
+| `--color-yellow`    | `#F2EB87`  | Aksen kuning emas khas USU                |
+| `--color-accent`    | `#91A76A`  | Hijau sage pergerakan mahasiswa           |
+| `--color-text`      | `#D8D6C6`  | Teks isi & deskripsi                      |

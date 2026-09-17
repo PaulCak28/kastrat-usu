@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Departemen Kajian & Aksi Strategis - BEM FEB UI Clone Stylesheet
+   Departemen Kajian & Aksi Strategis - PEMA USU Stylesheet
    ========================================================================== */
 
 /* --- CSS Variables & Theme Tokens --- */
@@ -271,7 +271,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url("../images/hero-feb-ui.jpg") center center / cover no-repeat;
+  background: url("../images/hero-usu.jpg") center center / cover no-repeat;
   padding: 180px 0 100px;
   text-align: center;
   overflow: hidden;
