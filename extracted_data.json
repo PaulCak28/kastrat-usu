@@ -1,0 +1,158 @@
+{
+  "programs": [
+    {
+      "title": "Kajian Insidental",
+      "desc": "Hadir sebagai medium Departemen Kastrat untuk merespon isu-isu strategis yang bersifat insidental maupun underground.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/e0ylff52c6m.jpg",
+      "local_image": "assets/images/program-1.jpg"
+    },
+    {
+      "title": "Kajian Bersama",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit luctus torquent metus libero, eros ridiculus sagittis facilisis ac primis phasellus blandit mauris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/kdeqa3atnby.jpg",
+      "local_image": "assets/images/program-2.jpg"
+    },
+    {
+      "title": "Kajian Aliansi",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit luctus torquent metus libero, eros ridiculus sagittis facilisis ac primis phasellus blandit mauris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/bdvsndl0onk.jpg",
+      "local_image": "assets/images/program-3.jpg"
+    },
+    {
+      "title": "DISTARA",
+      "desc": "DISTARA merupakan program kerja Kastrat yang berbentuk diskusi publik atau audiensi sebagai bentuk tanggung jawab kastrat terhadap isu yang diangkat.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/gmsnxqiljp4.jpg",
+      "local_image": "assets/images/program-4.jpg"
+    },
+    {
+      "title": "Kastratpedia",
+      "desc": "Berupa kajian mini yang dipublikasikan dalam bentuk infografis untuk merespon isu-isu sosial politik teraktual dengan kritik dan argumentasi yang didasarkan pada data maupun fakta empiris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/dgxogexaxm8.jpg",
+      "local_image": "assets/images/program-5.jpg"
+    },
+    {
+      "title": "Top Played Issues",
+      "desc": "Top Played Issues berfungsi sebagai media Departemen Kastrat untuk merangkum dinamika sosial-politik yang terjadi selama satu bulan ke belakang di Indonesia.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/gr0wnd7pbjk.jpg",
+      "local_image": "assets/images/program-6.jpg"
+    },
+    {
+      "title": "Aksi dan Propaganda",
+      "desc": "Gerakan yang bersifat responsif terhadap isu-isu sosial-politik teraktual dalam skala universitas, regional, nasional, dan internasional.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/ryagrzmutr0.jpg",
+      "local_image": "assets/images/program-7.jpg"
+    },
+    {
+      "title": "Sentra Dialektika",
+      "desc": "Sentra Dialektika hadir sebagai wadah bagi mahasiswa dengan antusiasme sosial-politik di FEB UI untuk berkumpul dan mengekspresikan antusiasmenya melalui beberapa kegiatan, seperti diskusi dan kesempatan hearing bersama tokoh publik. Selain itu, Sentra Dialektika juga akan menjadi pusat koordinasi bagi Departemen Kastrat dalam mengintensifkan pergerakan aksi di FEB UI",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/qs_zkak27jk.jpg",
+      "local_image": "assets/images/program-8.jpg"
+    },
+    {
+      "title": "Podcast Kastrat",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit luctus torquent metus libero, eros ridiculus sagittis facilisis ac primis phasellus blandit mauris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/hg3bhx6u5jg.jpg",
+      "local_image": "assets/images/program-9.jpg"
+    },
+    {
+      "title": "Kastrat Times",
+      "desc": "Program kerja yang mewadahi minat dan bakat mahasiswa FEB UI untuk menuliskan opininya dalam bentuk tulisan ringan atau esai. Kastrat Times akan dibuka sepanjang kepengurusan Departemen Kastrat BEM FEB UI 2023.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/vzjdyl5jvxy.jpg",
+      "local_image": "assets/images/program-10.jpg"
+    },
+    {
+      "title": "Kastrat Forbes",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit luctus torquent metus libero, eros ridiculus sagittis facilisis ac primis phasellus blandit mauris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/e7rlgujjazc.jpg",
+      "local_image": "assets/images/program-11.jpg"
+    },
+    {
+      "title": "Mading Kastrat",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipiscing elit luctus torquent metus libero, eros ridiculus sagittis facilisis ac primis phasellus blandit mauris.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/ex20azbjiiy.jpg",
+      "local_image": "assets/images/program-12.jpg"
+    },
+    {
+      "title": "SERUNI",
+      "desc": "Diskusi komprehensif yang bermakna bahwa tema SERUNI akan didiskusikan secara mendalam, menyeluruh, dan berbasis pada argumentasi yang multiperspektif.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/f1jxoop1nhy.jpg",
+      "local_image": "assets/images/program-13.jpg"
+    },
+    {
+      "title": "Kastrat Views",
+      "desc": "Merupakan sebuah konten edukasi sosial-politik dan ekonomi yang ditujukan untuk meningkatkan atensi dan kesadaran mahasiswa FEB UI terhadap isu-isu sosial politik yang disajikan dalam bentuk video.",
+      "button_text": "",
+      "button_url": "",
+      "bg_image": "https://bemfebui.com/wp-content/uploads/2026/03/kieclnzkobo.jpg",
+      "local_image": "assets/images/program-14.jpg"
+    }
+  ],
+  "team": [
+    {
+      "name": "M. Nur Asla Junior",
+      "role": "Kepala Departemen",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/KADEP-M.-Nur-Asla-Junior-1.jpg"
+    },
+    {
+      "name": "Raudlah Salsabila",
+      "role": "Wakil Kepala Departemen",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/WAKADEP-Raudiah-Salsabila-M.-1.jpg"
+    },
+    {
+      "name": "Hikmah Kamila A.",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/Hikmah-Kamila-A.-1.jpg"
+    },
+    {
+      "name": "Abraham Samuel W.",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/Abraham-Samuel-W.-1.jpg"
+    },
+    {
+      "name": "Ilayka Asykuu A.",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/Ilayka-Asykuu-A.-1.jpg"
+    },
+    {
+      "name": "M. Syafiq Zhairul H.",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/M.-Syafiq-Zhairul-H.-1.jpg"
+    },
+    {
+      "name": "Wirda Hafidz",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/Wirda-Hafidz-2.jpg"
+    },
+    {
+      "name": "Sheva Fi Sabilillah",
+      "role": "Staff",
+      "image": "https://bemfebui.com/wp-content/uploads/2026/05/Sheva-Fi-Sabilillah-1.jpg"
+    }
+  ]
+}
